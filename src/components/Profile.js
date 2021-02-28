@@ -9,10 +9,9 @@ const Profile = () => {
     const fetchUser = async () => {
       setLoading(true);
       try {
-        await axios.get("http://localhost:4000/user").then((response) => {
-          console.log(response.data);
-          setUser(response.data);
-        });
+        await axios
+          .get("http://localhost:4000/user")
+          .then((response) => setUser(response.data));
       } catch (e) {
         console.log(e);
       }
