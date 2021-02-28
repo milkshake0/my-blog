@@ -1,0 +1,113 @@
+.MyPostPage {
+  width: 100%;
+}
+
+.Profile {
+  width: 800px;
+  height: 200px;
+  margin: 30px auto 0 auto;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  .image {
+    flex-basis: 20%;
+    text-align: right;
+    img {
+      display: inline-block;
+      width: 120px;
+      border-radius: 100%;
+    }
+  }
+  .text {
+    flex-basis: 80%;
+    p {
+      padding: 5px 0 5px 50px;
+      &.text-name {
+        font-weight: bold;
+        font-size: 28px;
+      }
+      &.text-desc {
+        width: 100%;
+        font-size: 18px;
+        max-height: 40px;
+      }
+    }
+  }
+}
+
+.ArticleCategory {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin: 50px 0;
+  button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    padding: 5px 40px;
+    &.active {
+      color: #63c306;
+      border-bottom: 2px solid #63c306;
+    }
+  }
+}
+
+.boxWidth800 {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.PostCategory {
+  position: absolute;
+  margin-left: -200px;
+  font-size: 14px;
+  width: 200px;
+  padding-right: 50px;
+  .todoList {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-align: center;
+  }
+  .category-title {
+    margin: 20px 0 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .category-list li {
+    margin-bottom: 10px;
+    &.active {
+      color: #63c306;
+    }
+  }
+}
+
+.PostList {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.PostItem {
+  width: 800px;
+  border-bottom: 1px solid #ccc;
+  margin: 50px 0;
+  .post-thumb {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+  }
+  p {
+    padding-top: 20px;
+  }
+  .post-title {
+    font-weight: bold;
+    font-size: 28px;
+  }
+  .post-date {
+    font-size: 12px;
+    color: #888;
+    padding-bottom: 20px;
+  }
+}
