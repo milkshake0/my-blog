@@ -1,0 +1,238 @@
+{
+  "user": {
+    "id": 1,
+    "username": "JIWOO",
+    "description": "안녕하세요. 박지우입니다.",
+    "url": "https://www.google.com",
+    "thumbUrl": "https://via.placeholder.com/200/333333",
+    "joined": "2021-03-01"
+  },
+  "posts_html": [
+    {
+      "id": 1,
+      "title": "Title-html 1",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/f67925",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 2,
+      "title": "Title-html 2",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/f67925",
+      "postedAt": "2021-03-01"
+    }
+  ],
+  "posts_css": [
+    {
+      "id": 1,
+      "title": "Title-css 1",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/008ed8",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 2,
+      "title": "Title-css 2",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/008ed8",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 3,
+      "title": "Title-css 3",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/008ed8",
+      "postedAt": "2021-03-01"
+    }
+  ],
+  "posts_scss": [
+    {
+      "id": 1,
+      "title": "Title-scss 1",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/ce679a",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 2,
+      "title": "Title-scss 2",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/ce679a",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 3,
+      "title": "Title-scss 3",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/ce679a",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 4,
+      "title": "Title-scss 4",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/ce679a",
+      "postedAt": "2021-03-01"
+    }
+  ],
+  "posts_javascript": [
+    {
+      "id": 1,
+      "title": "Title-javascript 1",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/f7e018",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 2,
+      "title": "Title-javascript 2",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/f7e018",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 3,
+      "title": "Title-javascript 3",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/f7e018",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 4,
+      "title": "Title-javascript 4",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/f7e018",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 5,
+      "title": "Title-javascript 5",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/f7e018",
+      "postedAt": "2021-03-01"
+    }
+  ],
+  "posts_react": [
+    {
+      "id": 1,
+      "title": "Title-react 1",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/#61dafb",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 2,
+      "title": "Title-react 2",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/#61dafb",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 3,
+      "title": "Title-react 3",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/#61dafb",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 4,
+      "title": "Title-react 4",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/#61dafb",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 5,
+      "title": "Title-react 5",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/#61dafb",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 6,
+      "title": "Title-react 6",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/#61dafb",
+      "postedAt": "2021-03-01"
+    }
+  ],
+  "posts_nodejs": [
+    {
+      "id": 1,
+      "title": "Title-nodejs 1",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/579d4b",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 2,
+      "title": "Title-nodejs 2",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/579d4b",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 3,
+      "title": "Title-nodejs 3",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/579d4b",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 4,
+      "title": "Title-nodejs 4",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/579d4b",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 5,
+      "title": "Title-nodejs 5",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/579d4b",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 6,
+      "title": "Title-nodejs 6",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/579d4b",
+      "postedAt": "2021-03-01"
+    },
+    {
+      "id": 7,
+      "title": "Title-nodejs 7",
+      "description": "Description-abc",
+      "url": "https://www.google.com",
+      "thumbUrl": "https://via.placeholder.com/1000/579d4b",
+      "postedAt": "2021-03-01"
+    }
+  ]
+}

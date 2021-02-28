@@ -21,17 +21,18 @@
   }
   .text {
     flex-basis: 80%;
-    p {
+    .text-name,
+    .text-desc {
       padding: 5px 0 5px 50px;
-      &.text-name {
-        font-weight: bold;
-        font-size: 28px;
-      }
-      &.text-desc {
-        width: 100%;
-        font-size: 18px;
-        max-height: 40px;
-      }
+    }
+    .text-name {
+      font-weight: bold;
+      font-size: 28px;
+    }
+    .text-desc {
+      width: 100%;
+      font-size: 18px;
+      max-height: 40px;
     }
   }
 }
