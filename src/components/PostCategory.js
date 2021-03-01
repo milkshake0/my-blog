@@ -12,6 +12,7 @@ const postCategories = [
 ];
 
 const PostCategory = ({ onSelect, qstring }) => {
+  console.log("qstring: ", qstring);
   return (
     <div className="PostCategory">
       <NavLink className="todoList" to="/todo">
@@ -21,7 +22,7 @@ const PostCategory = ({ onSelect, qstring }) => {
       <ul className="category-list">
         {postCategories.map((c) => (
           <li
-            className={c.name === qstring ? "active" : ""}
+            className={c.name === (!qstring ? "all" : qstring) ? "active" : ""}
             key={c.name}
             onClick={() => onSelect(c.name)}
           >
