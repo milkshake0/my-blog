@@ -13,7 +13,7 @@ const PostContent = ({ location }) => {
   const query = qs.parse(location.search, {
     ignoreQueryPrefix: true,
   });
-  console.log("PostContent-query.category ", query.category);
+  // console.log("PostContent-query.category ", query.category);
 
   const onSelect = (c) => {
     console.log("PostContent-onSelect (parameter) ", c);
@@ -22,7 +22,7 @@ const PostContent = ({ location }) => {
     //   search: "?category=" + c,
     // });
     setCategory(c);
-    console.log("PostContent-onSelect (category) ", category);
+    // console.log("PostContent-onSelect (category) ", category);
   };
   console.log(location);
   return (

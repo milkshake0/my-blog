@@ -25,7 +25,9 @@ const PostCategory = ({ onSelect, qstring }) => {
             key={c.name}
             onClick={() => onSelect(c.name)}
           >
-            <NavLink to={"?category=" + c.name}>{c.text}</NavLink>
+            <NavLink to={c.name === "all" ? "/" : `?category=${c.name}`}>
+              {c.text}
+            </NavLink>
           </li>
         ))}
       </ul>
