@@ -7,7 +7,7 @@
     "thumbUrl": "https://via.placeholder.com/200/333333",
     "joined": "2021-03-01"
   },
-  "posts_html": [
+  "posts-html": [
     {
       "id": "html1",
       "title": "Title-html 1",
@@ -25,7 +25,7 @@
       "postedAt": "2021-03-02"
     }
   ],
-  "posts_css": [
+  "posts-css": [
     {
       "id": "css1",
       "title": "Title-css 1",
@@ -51,7 +51,7 @@
       "postedAt": "2021-03-03"
     }
   ],
-  "posts_scss": [
+  "posts-scss": [
     {
       "id": "scss1",
       "title": "Title-scss 1",
@@ -85,7 +85,7 @@
       "postedAt": "2021-03-04"
     }
   ],
-  "posts_javascript": [
+  "posts-javascript": [
     {
       "id": "javascript1",
       "title": "Title-javascript 1",
@@ -127,7 +127,7 @@
       "postedAt": "2021-03-05"
     }
   ],
-  "posts_react": [
+  "posts-react": [
     {
       "id": "react1",
       "title": "Title-react 1",
@@ -177,7 +177,7 @@
       "postedAt": "2021-03-06"
     }
   ],
-  "posts_nodejs": [
+  "posts-nodejs": [
     {
       "id": "nodejs1",
       "title": "Title-nodejs 1",

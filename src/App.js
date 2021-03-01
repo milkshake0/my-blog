@@ -1,7 +1,7 @@
 import React from "react";
 import "./shared/reset.scss";
 import "./shared/main.scss";
-import MyPostPage from "./pages/MyPostPage";
+import MyPostPage from "./components/common/MyPostPage";
 
 function App() {
   return (

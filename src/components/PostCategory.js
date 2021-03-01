@@ -1,18 +1,33 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-const PostCategory = () => {
+const postCategories = [
+  { name: "all", text: "전체보기" },
+  { name: "html", text: "HTML" },
+  { name: "css", text: "CSS" },
+  { name: "scss", text: "SCSS" },
+  { name: "javascript", text: "Javascript" },
+  { name: "react", text: "React" },
+  { name: "nodejs", text: "Node.js" },
+];
+
+const PostCategory = ({ onSelect, qstring }) => {
   return (
     <div className="PostCategory">
-      <div className="todoList">To do list</div>
+      <NavLink className="todoList" to="/todo">
+        To do list
+      </NavLink>
       <p className="category-title">카테고리</p>
       <ul className="category-list">
-        <li className="active">전체보기</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>SCSS</li>
-        <li>Javascript</li>
-        <li>React</li>
-        <li>Node.js</li>
+        {postCategories.map((c) => (
+          <li
+            className={c.name === qstring ? "active" : ""}
+            key={c.name}
+            onClick={() => onSelect(c.name)}
+          >
+            <NavLink to={"?category=" + c.name}>{c.text}</NavLink>
+          </li>
+        ))}
       </ul>
     </div>
   );
