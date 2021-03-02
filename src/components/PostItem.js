@@ -14,7 +14,7 @@ const PostItem = ({ post }) => {
           className="post-thumb"
         />
       </a>
-      <a href={post.url} className="text post-title" rel="noopner noreferrer">
+      <a href={post.url} className="text post-title" rel="noopener noreferrer">
         {post.title}
       </a>
       <p className="text post-desc">{post.description}</p>
