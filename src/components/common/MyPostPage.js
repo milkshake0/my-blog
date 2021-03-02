@@ -10,7 +10,7 @@ const MyPostPage = () => {
     <div className="MyPostPage">
       <BrowserRouter>
         <Profile />
-        {/* Switch사용해야 감지되는 이유? */}
+        {/* Switch사용해야 감지되는 이유? 진짜 뭐지ㅠㅠ */}
         <Switch>
           <ArticleCategory />
         </Switch>
