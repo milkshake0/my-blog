@@ -3,17 +3,15 @@ import PostCategory from "./PostCategory";
 import PostList from "./PostList";
 import qs from "qs";
 
-const PostContent = ({ location }) => {
+const PostContent = ({ match }) => {
   // const history = useHistory();
   const [category, setCategory] = useState("all");
 
-  //임시 작성
-  console.log("PostContent location", location);
   console.log("PostContent ", category);
-  const query = qs.parse(location.search, {
-    ignoreQueryPrefix: true,
-  });
-  // console.log("PostContent-query.category ", query.category);
+  // const query = location.pathname.split("/")[1];
+  console.log("match ", match);
+  const query = match.params.category || "all";
+  console.log("aaaa ", query);
 
   const onSelect = (c) => {
     console.log("PostContent-onSelect (parameter) ", c);
@@ -24,17 +22,12 @@ const PostContent = ({ location }) => {
     setCategory(c);
     // console.log("PostContent-onSelect (category) ", category);
   };
-  console.log(location);
   return (
     <div className="PostContent">
       <div className="boxWidth800">
-        <PostCategory
-          qstring={query.category}
-          onSelect={onSelect}
-          location={location}
-        />
+        <PostCategory onSelect={onSelect} category={query} />
       </div>
-      <PostList qstring={query.category} category={category} />
+      <PostList category={query} />
     </div>
   );
 };

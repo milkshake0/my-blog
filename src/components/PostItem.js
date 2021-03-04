@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PostItem = ({ post }) => {
   const postDate = new Date(post.postedAt);
@@ -7,13 +8,13 @@ const PostItem = ({ post }) => {
   }월 ${postDate.getDate()}일`;
   return (
     <div className="PostItem">
-      <a href={post.url}>
+      <Link to={`/detail/${post.id}`}>
         <img
           src={post.thumbUrl}
           alt="포스트 미리보기 이미지"
           className="post-thumb"
         />
-      </a>
+      </Link>
       <a href={post.url} className="text post-title" rel="noopener noreferrer">
         {post.title}
       </a>

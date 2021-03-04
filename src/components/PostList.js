@@ -1,19 +1,21 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import PostCategory from "./PostCategory";
 import PostItem from "./PostItem";
 
-const PostList = ({ category, qstring }) => {
+const PostList = ({ category }) => {
   const [posts, setPosts] = useState(null);
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     // console.log("category: ", category, "qstring: ", qstring);
-    const query = qstring !== undefined ? `posts-${qstring}` : "all";
+    const query = category !== "all" ? `posts-${category}` : "all";
     const fetchPosts = () => {
       setLoading(true);
       try {
         axios.get(`http://localhost:4000/${query}`).then((response) => {
-          console.log("PostList ", qstring);
+          console.log("PostList ", category);
           setPosts(response.data);
+          console.log("PostList ", posts);
         });
       } catch (e) {
         console.log(e);
@@ -21,7 +23,7 @@ const PostList = ({ category, qstring }) => {
       setLoading(false);
     };
     fetchPosts();
-  }, [qstring]);
+  }, [category]);
 
   if (loading) {
     return <div>대기 중...</div>;
